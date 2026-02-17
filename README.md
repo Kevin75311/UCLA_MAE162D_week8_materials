@@ -3,7 +3,7 @@
 ## installation
 Clone the repository
 ```
-git clone https://github.com/Kevin75311/UCLA_MAE162E_week2_materials.git
+git clone https://github.com/Kevin75311/UCLA_MAE162D_week8_materials.git
 ```
 
 ## usage 
