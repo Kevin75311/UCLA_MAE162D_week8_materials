@@ -55,6 +55,16 @@ try:
 
         for i in range(len(bounding_boxes)):
             print(f"[Debug] Detected: Class={class_objects[i]}, Confidence={confidence_probs[i]:.2f}")
+            # TODO: change the class number to the class number of traffic light in obj.names file
+            if class_objects[i] == 0:
+                # TODO: detect the color of the traffic light (red) by merging task 1
+                # step 1: crop the bounding box area from the frame
+                # step 2: convert the cropped area to HSV color space
+                # step 3: create a mask for red color
+                # step 4: check if there are enough contour areas in the mask to confirm the traffic light is red
+                # step 5: print a message if the traffic light is red (e.g., "Red light detected!")
+                pass
+        
 
         indices = nms_bbox(
             bounding_boxes,
